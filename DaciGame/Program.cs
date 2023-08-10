@@ -43,9 +43,12 @@ public class Program
             }
 
             Console.WriteLine("-----------------------------------");
+
+            System.Threading.Thread.Sleep(1000);
         }
 
         Console.WriteLine("PONTUAÇÃO FINAL");
         Console.WriteLine("Você fez: " + JogadorPontos + "\n" + "Computador fez: " + ComputadorPontos);
+        System.Threading.Thread.Sleep(1000);
     }
 }

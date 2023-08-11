@@ -13,7 +13,7 @@ Vamos utilizar o comando de loop “for” para determinar as rodadas de nosso j
 <h3>Função random:</h3>
 
 ```
-Random random> = new Random()
+Random random = new Random()
 
 int numeroAleatorio = random.Next(1, 10) // gera um número aleatório
 Console.WriteLine(numeroAleatorio) // mostra esse número
